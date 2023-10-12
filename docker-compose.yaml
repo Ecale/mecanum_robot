@@ -1,0 +1,31 @@
+version: '0.1'
+services:
+    simulation:
+        image: mecanum
+        restart: unless-stopped                 # Restart the container unless manually stopped
+        volumes:
+          - /tmp/.X11-unix:/tmp/.X11-unix:rw    # GUI related
+          - $HOME/.Xauthority:/root/.Xauthority:rw #More GUI stuff
+          - ./catkin_ws:/catkin_ws      # Adding code to container
+        environment:
+            - PYTHONUNBUFFERED=1
+            - DISPLAY                           # GUI related
+            - QT_X11_NO_MITSHM=1                # GUI related
+            - NVIDIA_VISIBLE_DEVICES=all        # GUI related
+            - NVIDIA_DRIVER_CAPABILITIES=all    # GUI related
+
+        privileged: true                        # GUI related
+        
+        # If you don't have nvidia card, comment this out
+        # Otherwise see here: https://github.com/docker/compose/issues/6691#issuecomment-705995189
+        runtime: nvidia                         
+
+        hostname: mecanum
+        
+        stdin_open: true # docker run -i
+        tty: true        # docker run -t
+
+# You must run below to enable GUI. More info: http://wiki.ros.org/docker/Tutorials/GUI
+# xhost +local:root
+#- /tmp/.docker.xauth:/tmp/.docker.xauth:rw
+#- XAUTHORITY=/tmp/.docker.xauth

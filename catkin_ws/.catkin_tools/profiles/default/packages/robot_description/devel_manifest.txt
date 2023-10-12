@@ -1,0 +1,5 @@
+new_code/robot_description
+/catkin_ws/devel/.private/robot_description/cmake.lock /catkin_ws/devel/./cmake.lock
+/catkin_ws/devel/.private/robot_description/lib/pkgconfig/robot_description.pc /catkin_ws/devel/lib/pkgconfig/robot_description.pc
+/catkin_ws/devel/.private/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake /catkin_ws/devel/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+/catkin_ws/devel/.private/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake /catkin_ws/devel/share/robot_description/cmake/robot_descriptionConfig.cmake

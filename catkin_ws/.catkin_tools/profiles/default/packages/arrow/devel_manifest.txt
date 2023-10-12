@@ -1,0 +1,5 @@
+arrow
+/catkin_ws/devel/.private/arrow/cmake.lock /catkin_ws/devel/./cmake.lock
+/catkin_ws/devel/.private/arrow/lib/pkgconfig/arrow.pc /catkin_ws/devel/lib/pkgconfig/arrow.pc
+/catkin_ws/devel/.private/arrow/share/arrow/cmake/arrowConfig.cmake /catkin_ws/devel/share/arrow/cmake/arrowConfig.cmake
+/catkin_ws/devel/.private/arrow/share/arrow/cmake/arrowConfig-version.cmake /catkin_ws/devel/share/arrow/cmake/arrowConfig-version.cmake

@@ -1,0 +1,7 @@
+repositories:
+  mecanumbot/gazebo_mecanum_plugins:
+    type: git
+    url: https://github.com/qaz9517532846/gazebo_mecanum_plugins.git
+  zm_robot:
+    type: git
+    url: https://github.com/qaz9517532846/zm_robot.git

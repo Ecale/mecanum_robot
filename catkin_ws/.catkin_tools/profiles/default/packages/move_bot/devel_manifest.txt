@@ -1,0 +1,6 @@
+move_bot
+/catkin_ws/devel/.private/move_bot/cmake.lock /catkin_ws/devel/./cmake.lock
+/catkin_ws/devel/.private/move_bot/lib/pkgconfig/move_bot.pc /catkin_ws/devel/lib/pkgconfig/move_bot.pc
+/catkin_ws/devel/.private/move_bot/lib/move_bot/move_bot /catkin_ws/devel/lib/move_bot/move_bot
+/catkin_ws/devel/.private/move_bot/share/move_bot/cmake/move_botConfig.cmake /catkin_ws/devel/share/move_bot/cmake/move_botConfig.cmake
+/catkin_ws/devel/.private/move_bot/share/move_bot/cmake/move_botConfig-version.cmake /catkin_ws/devel/share/move_bot/cmake/move_botConfig-version.cmake

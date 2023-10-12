@@ -1,0 +1,5 @@
+new_code/my_gazebo
+/catkin_ws/devel/.private/my_gazebo/cmake.lock /catkin_ws/devel/./cmake.lock
+/catkin_ws/devel/.private/my_gazebo/lib/pkgconfig/my_gazebo.pc /catkin_ws/devel/lib/pkgconfig/my_gazebo.pc
+/catkin_ws/devel/.private/my_gazebo/share/my_gazebo/cmake/my_gazeboConfig-version.cmake /catkin_ws/devel/share/my_gazebo/cmake/my_gazeboConfig-version.cmake
+/catkin_ws/devel/.private/my_gazebo/share/my_gazebo/cmake/my_gazeboConfig.cmake /catkin_ws/devel/share/my_gazebo/cmake/my_gazeboConfig.cmake
